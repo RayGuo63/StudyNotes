@@ -18,3 +18,11 @@ git reset --hard origin/master
 git push -f
 ```
 
+
+
+## 3.删除远程分支(master)
+
+```
+git push origin --delete master
+```
+
