@@ -7,3 +7,14 @@
 ```
 git clean -f .git/index.lock
 ```
+
+
+
+## 2.强行覆盖分支
+
+```
+git checkout develop
+git reset --hard origin/master
+git push -f
+```
+
