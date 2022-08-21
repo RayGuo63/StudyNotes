@@ -26,3 +26,11 @@ git push -f
 git push origin --delete master
 ```
 
+
+
+## 4.切换用户名
+
+```
+git config --global user.name 'XX'
+```
+
