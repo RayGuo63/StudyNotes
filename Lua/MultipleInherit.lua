@@ -70,6 +70,21 @@ bAccount = NameAccount:new{
     money = 1000
 };
 
-print(aAccount:GetName()) -- nil
-print(aAccount:GetMoney()) -- 1000
+print(bAccount:GetName()) -- nil
+print(bAccount:GetMoney()) -- 1000
 
+cAccount = NameAccount:new{
+    money = 1000,
+    name = 'Ray'
+};
+
+print(cAccount:GetName()) -- Ray
+print(cAccount:GetMoney()) -- 1000
+
+dAccount = NameAccount:new{
+    money = 1000,
+    name = 'Ray'
+};
+
+print(dAccount:GetMoney()) -- 1000
+print(dAccount:GetName()) -- Ray
